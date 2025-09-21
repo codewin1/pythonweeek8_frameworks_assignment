@@ -22,6 +22,7 @@ This project demonstrates a complete data science workflow using the CORD-19 res
 - **Comprehensive Reporting**: Automated insights generation and summary reports
 
 ### Interactive Dashboard (`streamlit_app.py`)
+
 - **File Upload Interface**: Easy CSV upload with sample size controls
 - **Real-time Processing**: Dynamic data preprocessing and analysis
 - **Interactive Charts**: Publication trends with peak year annotations
@@ -132,7 +133,7 @@ Then
 4. Explore different analysis tabs
 5. Use filters in Data Explorer for specific insights
 
-## 📊 Analysis Results
+##  Analysis Results
 
 ### Key Findings (Sample Dataset)
 
@@ -171,7 +172,7 @@ Then
    - Monthly publication patterns  
    - Data completeness pie chart
 
-## 🔍 Data Science Workflow Demonstrated
+##  Data Science Workflow Demonstrated
 
 ### 1. Data Loading & Validation
 - File existence checking and error handling
@@ -264,14 +265,6 @@ Then
 - **Citation Analysis**: Impact and reference patterns
 - **Time Series Forecasting**: Research trend prediction
 
-### Technical Improvements  
-
-- **Database Integration**: PostgreSQL or MongoDB storage
-- **API Development**: REST API for data access
-- **Advanced Filtering**: Complex query capabilities
-- **Real-time Updates**: Automated dataset refresh
-- **Performance Scaling**: Distributed computing support
-
 ## Dependencies
 
 ```text
@@ -282,13 +275,3 @@ streamlit>=1.28.0      # Web application framework
 plotly>=5.15.0         # Interactive plotting library
 numpy>=1.21.0          # Numerical computing fundamentals
 ```
-
-## Contributing
-
-This project is part of an academic assignment. For educational purposes:
-
-1. Fork the repository
-2. Experiment with different analysis approaches
-3. Try alternative visualization techniques  
-4. Implement additional features from the enhancement list
-5. Share insights and improvements
