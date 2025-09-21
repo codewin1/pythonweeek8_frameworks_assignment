@@ -97,6 +97,7 @@ python analysis.py
 - Produces a detailed analysis report
 
 **Output:**
+
 - Text report: `results/analysis_report.txt`
 - Visualizations: `results/visualizations/*.png`
 - Console output with key findings
@@ -104,6 +105,17 @@ python analysis.py
 ### Option 2: Launch Interactive Dashboard  
 ```bash
 streamlit run streamlit_app.py
+```
+
+
+### Option 3: Launch As a colletctive program  
+Grant the user privileges
+```bash
+chmod +x runner.sh
+```
+Then
+```bash
+./runner.sh
 ```
 
 **What it provides:**
